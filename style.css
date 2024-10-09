@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 20px;
+}
+
+.cart {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.like-button {
+    cursor: pointer;
+    font-size: 20px;
+    color: gray;
+}
+
+.like-button.liked {
+    color: red;
+}
+
+.total-price {
+    font-size: 20px;
+    font-weight: bold;
+}
